@@ -1,0 +1,58 @@
+# STM32CubeMX 本地生成记录
+.mxproject
+
+# 编译产物
+*.o
+*.obj
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lnp
+*.dep
+*.iex
+*.lst
+*.su
+*.cyclo
+
+# Keil MDK
+*.uvoptx
+*.uvguix
+*.uvguix.*
+*.uvprojx.bak
+*.uvoptx.bak
+*.build_log.htm
+*.build_log.txt
+/MDK-ARM/Objects/
+/MDK-ARM/Listings/
+
+# STM32CubeIDE
+/Debug/
+/Release/
+/.metadata/
+
+# IAR
+/EWARM/Debug/
+/EWARM/Release/
+/EWARM/settings/
+
+# CMake
+/build/
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/compile_commands.json
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+
+
+#/MDK-ARM/F407_motor/
